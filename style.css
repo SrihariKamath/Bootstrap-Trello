@@ -1,0 +1,154 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    color: rgb(45, 45, 82);
+}
+/* Header */
+header{
+    background-color: #f6efff;
+    padding: 10px 0px;
+    /*You will give 4 values:
+     x-axis,y-axis,spread,color.*/
+    box-shadow: 0px 1px 1px rgb(170,170,170);
+}
+.header_btn a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+} 
+.header_btn_one{
+    color: dodgerblue;  
+}
+.header_btn_two{
+    background-color: dodgerblue;
+    color: white;
+}
+.header_btn_one:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.header_btn_two:hover{
+    background-color:rgb(15,97,179);
+    color: white;
+}
+/* Intro */
+.intro_one h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.intro_one p{
+    font-size: 20px;
+}
+.enter{
+    padding: 5px 30px 5px 10px; 
+    font-size: 20px;
+    font-weight: 500;
+}
+.input_btn{ 
+    padding: 5px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.input_btn:hover{
+    background-color: blue;
+}
+
+/* Body */
+.body_btn a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.body_btn a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Features */
+.f2 p,a{
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(45, 45, 82);
+    font-weight: 600;
+}
+.f2 a:hover{
+    text-decoration: underline;
+    color:rgb(45, 45, 82);
+}
+
+.f6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+}
+
+.f6_1{
+    width: 45%;
+    margin: auto;
+    
+}
+.f6_2{
+    width: 45%;
+    margin: auto;
+}
+
+.f6_1 a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 15px;
+    border: 1px solid dodgerblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.f6_2 a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 15px;
+    border: 1px solid dodgerblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.f6_1 a:hover{
+    background-color:dodgerblue;
+    color: white;
+}
+.f6_2 a:hover{
+    background-color:dodgerblue;
+    color: white;
+}
+
+.contact{
+    background-color: rgb(13, 13, 95);
+    border: 1px solid blue;
+    border-radius: 25px;
+}
+.ent{
+    padding: 1px 10px;
+    font-size: 18px;
+}
+.inp_btn{
+    padding: 1px 30px;
+    font-size: 18px;
+}
+.inp_btn:hover{
+    background-color: blue;
+}
+
+/* Credits */
+
+.nav a{
+    color: rgb(92, 89, 89);
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0 50px 40px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.nav a:hover{
+    color: black;
+}
+
+
